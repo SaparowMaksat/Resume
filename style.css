@@ -72,6 +72,7 @@ h2 {
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 3px 3px 3px #333;
+		transition: all 0.3s ease-in;
 }
 
 .box1 {
@@ -139,9 +140,6 @@ h2 {
 }
 
 .block1:hover {
-    opacity: 0.7;
-    box-shadow: 0 0 10px #000;
-    border-bottom-left-radius: 20%;
-    border-top-right-radius: 20%;
-    background: rgba(88, 246, 82, .4);
+    opacity: 0.5;
+		transition: all 0.3s ease-in;
 }
